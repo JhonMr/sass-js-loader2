@@ -1,5 +1,7 @@
+import partionES62ES5 from 'partionES62ES5';
 const esprima = require('esprima');
 function analyze(source) {
+	source = partionES62ES5(source);
 	var ast = esprima.parse(source);
 	var astBody = ast.body;
 	var global = {};
