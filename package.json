@@ -1,0 +1,27 @@
+{
+  "name": "sass-js-loader",
+  "version": "0.0.1",
+  "description": "Sass file can import js file and share js variate",
+  "main": "lib/loader.js",
+  "scripts": {
+    "build": "scripts/build",
+    "test": "scripts/test",
+		"test-inspect": "scripts/test-inspect"
+  },
+  "keywords": [
+    "sass-js-loader",
+    "js"
+  ],
+  "author": "JhonMr",
+  "license": "ISC",
+  "dependencies": {
+    "esprima": "^4.0.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3"
+  }
+}
